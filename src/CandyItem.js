@@ -1,9 +1,12 @@
 import React from 'react'; 
+// import { candies } from './candies-data';
 
-export default function CandyItem({ candies }) {
-  console.log(candies);
+export default function CandyItem({ candy }) {
+  // console.log(candy);
   return (
-    <div>{candies}</div>
+    <div>
+      <p>{candy}</p>
+    </div>
   );
 }
 

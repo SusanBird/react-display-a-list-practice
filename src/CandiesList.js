@@ -5,13 +5,9 @@ export default function CandiesList({ candies }) {
   return (
     <div>
       {
-        candies.map((candy) => 
-          <CandyItem
-            key={candy}
-            {...candy}
-          />
-        )
-      }
+        candies.map(candy => 
+          <CandyItem key={candy} />
+        )}
     </div>
   );
 }
