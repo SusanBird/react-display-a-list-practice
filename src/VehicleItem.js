@@ -10,4 +10,3 @@ export default function VehicleItem({ type, wheels, manufactured }) {
   );
 }
 
-//vehicle.manufactured.map(manufactured => <li key{}) ln36
