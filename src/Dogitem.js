@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Dogitem({ name, age, color }) {
+export default function DogItem({ name, age, color }) {
   return (
     <div className='dog-item'>
       <h3>{name}</h3>
