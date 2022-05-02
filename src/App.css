@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.dog-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dog-item {
+  width: 200px;
+  border: solid 1px black;
+  margin: 10px;
+  background-color: violet;
+}
+
+.child-item {
+  width: 200px;
+  border: solid 1px black;
+  margin: 10px;
+  background-color: goldenrod;
+}
+
+.vehicle-item {
+  width: 200px;
+  border: solid 1px black;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+}
